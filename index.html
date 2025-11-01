@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paul Tandoh Asare</title>
+  <meta name="description" content="Paul Tandoh Asare — IT professional focused on cybersecurity, secure software design, research, and teaching.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f7f8fb;--accent:#0b5cff;--muted:#586069;--card:#ffffff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; background:var(--bg); color:#0b0b0b; line-height:1.6}
+    .container{max-width:960px;margin:auto;padding:20px}
+
+    header{text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px}
+    .photo{width:140px;height:140px;border-radius:50%;overflow:hidden;border:2px solid #e6e9f2;background:#ddd}
+    .photo img{width:100%;height:100%;object-fit:cover}
+
+    h1{font-family:Lora,serif;font-size:28px;margin-top:4px;margin-bottom:2px}
+    p.lead{color:var(--muted);margin:2px 0;font-size:15px}
+    .meta{color:var(--muted);font-size:13px;margin-top:2px}
+
+    nav{margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+    nav a{padding:6px 10px;background:var(--card);border-radius:8px;text-decoration:none;color:#0b0b0b;border:1px solid #eef2ff;font-weight:600;transition:all .2s}
+    nav a:hover{background:var(--accent);color:#fff}
+
+    main{margin-top:28px;display:grid;grid-template-columns:1fr 320px;gap:28px}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(11,92,255,0.03);border:1px solid #eef2ff}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+    .h2{font-size:18px;font-weight:600}
+    .muted{color:var(--muted);font-size:14px}
+
+    .about p{margin-bottom:12px}
+    .list{list-style:none;margin:0;padding:0}
+    .list li{padding:8px 0;border-bottom:1px dashed #eef2ff}
+
+    aside .contact-item{display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+    .badge{display:inline-block;padding:6px 8px;border-radius:999px;background:#f1f5ff;border:1px solid #e6edff;font-weight:600}
+
+    footer{margin-top:36px;text-align:center;color:var(--muted);font-size:14px}
+
+    @media (max-width:900px){
+      main{grid-template-columns:1fr}
+      .photo{width:120px;height:120px}
+    }
+
+    @media (max-width:600px){
+      body{font-size:15px}
+      h1{font-size:22px}
+      .container{padding:15px}
+      .card{padding:16px}
+      nav a{padding:5px 9px;font-size:14px}
+      .photo{width:100px;height:100px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="photo">
+        <img src="photo.png" alt="Paul Tandoh Asare">
+      </div>
+      <h1>PAUL TANDOH ASARE</h1>
+      <p class="lead">IT Professional &amp; Researcher</p>
+      <div class="meta">Accra, Ghana • kptandonh@gmail.com • +233 548 999 107</div>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+         <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="card about">
+          <div class="section-title"><div class="h2">About</div><div class="muted">University of Education, Winneba — BSc IT Education (2018–2022)</div></div>
+          <p>I am a young professional with a strong IT background and a passion for cybersecurity. I have over six years of software development experience and have worked on secure web applications, network security, and teaching-focused research.</p>
+          <p>My work blends secure software design, ethical hacking techniques, and practical teaching to help organisations and students adopt safer digital practices.</p>
+
+          <div style="margin-top:18px">
+            <div class="section-title"><div class="h2">Research &amp; Focus</div></div>
+            <hr>
+            <ul class="list">
+              <li><strong>Secure Software Design</strong> — Integrating authentication, access control, and data protection into web systems.</li>
+              <li><strong>Ethical Hacking &amp; Penetration Testing</strong> — Simulations and practical exercises to identify vulnerabilities.</li>
+              <li><strong>Cloud &amp; Network Security</strong> — VPNs, firewall setup, and secure deployment practices.</li>
+            </ul>
+          </div>
+
+
+          <div style="margin-top:18px" id="research">
+            <div class="section-title"><div class="h2">Research Experience</div></div>
+            <hr>
+            <ul class="list">
+              <li><strong>School Managment System: a case study of St. Monica's Junior High School</strong>, Undergraduate Research Project - UEW (2022).</li>
+              <li><strong>Independent Cybersecurity Research</strong> Ongoing.</li>
+            </ul>
+          </div> 
+          
+
+
+        </div>
+
+
+
+        <div class="card" id="teaching" style="margin-top:18px">
+          <div class="section-title"><div class="h2">Teaching Experience </div><div class="muted"></div></div>
+            <ul class="list">
+            <li>Software training — The Trust Hospital, Accra (Mar 2025)</li>
+            <li>IT Teacher - Denkyemouso M/A Basic School (2022). <div class="muted"><i>Internship</i> </div></li>
+            <li>Research Methods facilitation — University of Education, Winneba (2022)  <div class="muted"><i>Final Year Students</i></div></li>
+            <li>IT Teacher - St. Monica's Senior High School. <div class="muted"><i>Attachment</i></div></li>
+            <li>Conducted free ICT training sessions for basic school students in Kumasi Amakom (2021).  <div class="muted"><i>Volunteerism & Community Impact Activity</i></div> </li>
+            <li>Free ICT classes for basic school students in  Volta Region after the flood incidence (2023). <div class="muted"><i>Volunteerism & Community Impact Activity</i></div></li>
+            <li>Organized community workshops on safe internet use and data privacy awareness. <div class="muted"><i>Volunteerism & Community Impact Activity</i></div></li>
+            <li>Collaborate with Gentle Souls Foundation and organize ICT training for girls in Atwima Boko community in Kumasi. <div class="muted"><i>Volunteerism & Community Impact Activity</i></div></li>
+         </ul>
+
+        </div>
+
+
+
+         <div class="card" id="research" style="margin-top:18px">
+          <div class="section-title"><div class="h2">Professional Experience</div><div class="muted">Work</div></div>
+            <ul class="list">
+              <li><strong>CCTV Control Room Technician</strong>, The Trust Hospital Company (Oct 2024 – Present) — Surveillance systems, DVR/NVR configuration, network integrity.</li>
+              <li><strong>IT Infrastructure (National Service)</strong>, Parliament House of Ghana (Nov 2022 – Nov 2023) — LAN/WAN support, firewall configuration, VPN.</li>
+              <li><strong>Freelance Software Developer</strong>, PADEV (Nov 2018 – Mar 2021) — Secure web and desktop applications.</li>
+         </ul>
+
+        </div>
+
+
+
+        <div class="card" id="publications" style="margin-top:18px">
+          <div class="section-title"><div class="h2">Publications</div><div class="muted">Work in progress</div></div>
+          <ul class="list">
+            <li>“Integrating Secure Software Design Principles into Web-Based Educational Systems” — Manuscript in preparation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <div class="section-title"><div class="h2">Contact</div><div class="muted">Get in touch</div></div>
+          <div class="contact-item"><div class="badge">Email</div><div><a href="mailto:kptandonh@gmail.com">kptandonh@gmail.com</a></div></div>
+          <div class="contact-item"><div class="badge">Phone</div><div>+233 548 999 107</div></div>
+          <div class="contact-item"><div class="badge">Location</div><div>Accra, Ghana</div></div>
+          <div style="margin-top:12px"><a href="#" id="downloadResume" style="display:inline-block;padding:10px 12px;border-radius:8px;background:var(--card);border:1px solid #eef2ff;text-decoration:none;font-weight:600">Download Resume (PDF)</a></div>
+          <hr style="margin:18px 0;border:none;border-top:1px dashed #eef2ff">
+
+          
+          <div style="margin-top:12px">
+            <div class="section-title"><div class="h2">Awards &amp; Honors</div></div>
+            <ul class="list">
+              <li>Best Student Teacher (Intern) — 2022</li>
+              <li>Innovation in Software Design Award — PADEV (2021)</li>
+            </ul>
+          </div>
+        </div>
+
+        
+
+        <div class="card" style="margin-top:18px" id="projects">
+            <div class="section-title"><div class="h2">Projects</div><div class="muted">Practical Activity</div></div>
+         
+          <ul class="list">
+            <li>School Management System — Final Year Project <div class="muted"><i>University of Education, Winneba-2022.
+                <br>  Designed and implemented a secure web-based application for managing student, staff, and administrative data with emphasis on authentication, access control, and database security.</i>
+            </i> </div></li>
+
+            <li> Find Hostel System <div class="muted"><i>2021 
+                <br>  Secure web platform to connect students with hostels; used input validation, encryption and authentication. <em>Tech used:</em> HTML, CSS, PHP, JavaScript, MySQL
+            </i> </div></li>
+            
+            <li>Event Vote System <div class="muted"><i>2022 - 2023 <br>
+            Developed a real-time online voting platform with result verification and integrity mechanisms
+            </i></div></li>
+         </ul>
+        </div>
+
+
+
+       
+        <div class="card" style="margin-top:18px" id="skills">
+          <div class="section-title"><div class="h2">Skills &amp; Tools</div><div class="muted"> </div></div>
+          <ul class="list">
+            <li> <b> Research: </b>  Data collection and analysis, literature review, system analysis and report writing.</li>
+            <li> <b> Communication: </b>  Technical documentation, teaching, team work and presentation delivery.</li>
+            <li> <b> Problem-Solving: </b>  Troubleshooting network and software issues, analytical thinking and innovative solution design.</li>
+              <li> <b>Technical Skills</b> </li>
+              <li> <b> Programming: </b>  HTML, CSS, JavaScript, PHP, Python, C++, Visual Basic</li>
+                <li> <b> Networking: </b>  LAN/WAN, VPN setup</li>
+                <li> <b> Cybersecurity: </b>  firewall setup, penetration testing basics, access control</li>
+                <li> <b> Tools: </b> Microsoft Word, Excel, PowerPoint, Access, Outlook, Google Docs, Libre Office, Git, MySQL, WordPress, Figma, Adobe, SPSS, Genstat</li>
+              
+          </ul>
+        </div>
+
+
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted">Built by Paul Tandoh Asare • <a href="https://linkedin.com/in/paul-tandoh-asare-b19072242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> • <a href="https://github.com/kwabenapadev" target="_blank">GitHub</a></div>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('downloadResume').addEventListener('click', e => {
+      e.preventDefault();
+      window.location.href = 'Paul_Tandoh_Asare_Resume.pdf';
+    });
+  </script>
+</body>
+</html>
