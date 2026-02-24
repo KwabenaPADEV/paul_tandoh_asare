@@ -14,6 +14,8 @@
     body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial; background:var(--bg); color:#0b0b0b; line-height:1.6}
     .container{max-width:1000px;margin:auto;padding:20px}
     header{text-align:center;margin-bottom:30px}
+    .photo{width:140px;height:140px;border-radius:50%;overflow:hidden;border:2px solid #e6e9f2;background:#ddd}
+    .photo img{width:100%;height:100%;object-fit:cover}
     h1{font-family:Lora,serif;font-size:30px;margin-bottom:5px}
     .lead{color:var(--muted);font-size:16px;margin-bottom:6px}
     .meta{color:var(--muted);font-size:14px}
@@ -27,7 +29,7 @@
     ul{list-style:none}
     li{padding:8px 0;border-bottom:1px dashed #eef2ff}
     footer{text-align:center;margin-top:30px;color:var(--muted);font-size:14px}
-    @media(max-width:900px){main{grid-template-columns:1fr}}
+    @media(max-width:900px){main{grid-template-columns:1fr} .photo{width:100px;height:100px}}
   </style>
 </head>
 
@@ -35,6 +37,10 @@
 <div class="container">
 
 <header>
+  <div class="photo">
+        <img src="photo.png" alt="Paul Tandoh Asare">
+   </div>
+
   <h1>PAUL TANDOH ASARE</h1>
   <p class="lead">Incoming M.S. in Cybersecurity — Villanova University (Fall 2026)</p>
   <div class="meta">Accra, Ghana • kptandonh@gmail.com • +233 59 118 5079</div>
@@ -175,3 +181,4 @@
 </div>
 </body>
 </html>
+
